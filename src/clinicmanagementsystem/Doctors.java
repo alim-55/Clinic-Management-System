@@ -6,15 +6,16 @@ package clinicmanagementsystem;
 
 /**
  *
- * @author USER
+ * @author User
  */
-public class Patient extends javax.swing.JFrame {
+public class Doctors extends javax.swing.JFrame {
 
     /**
-     * Creates new form Patient
+     * Creates new form Doctors
      */
-    public Patient() {
+    public Doctors() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -67,7 +68,9 @@ public class Patient extends javax.swing.JFrame {
         jTable1 = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(3000, 750));
+        setBackground(new java.awt.Color(255, 255, 255));
+        setUndecorated(true);
+        setPreferredSize(new java.awt.Dimension(2000, 1000));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.TRAILING, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(255, 255, 255))); // NOI18N
@@ -233,7 +236,7 @@ public class Patient extends javax.swing.JFrame {
         jTextField1.setBackground(new java.awt.Color(255, 255, 255));
         jTextField1.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(0, 0, 0));
-        jTextField1.setText("Patient Age");
+        jTextField1.setText("Doctor Age");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -243,7 +246,7 @@ public class Patient extends javax.swing.JFrame {
         jTextField2.setBackground(new java.awt.Color(255, 255, 255));
         jTextField2.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
         jTextField2.setForeground(new java.awt.Color(0, 0, 0));
-        jTextField2.setText("Patient Gender");
+        jTextField2.setText("Doctor Gender");
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
@@ -253,7 +256,7 @@ public class Patient extends javax.swing.JFrame {
         jTextField3.setBackground(new java.awt.Color(255, 255, 255));
         jTextField3.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
         jTextField3.setForeground(new java.awt.Color(0, 0, 0));
-        jTextField3.setText("Patient Name");
+        jTextField3.setText("Doctor Name");
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3ActionPerformed(evt);
@@ -263,7 +266,7 @@ public class Patient extends javax.swing.JFrame {
         jTextField4.setBackground(new java.awt.Color(255, 255, 255));
         jTextField4.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
         jTextField4.setForeground(new java.awt.Color(0, 0, 0));
-        jTextField4.setText("Patient Age");
+        jTextField4.setText("Doctor Age");
         jTextField4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField4ActionPerformed(evt);
@@ -273,7 +276,7 @@ public class Patient extends javax.swing.JFrame {
         jTextField5.setBackground(new java.awt.Color(255, 255, 255));
         jTextField5.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
         jTextField5.setForeground(new java.awt.Color(0, 0, 0));
-        jTextField5.setText("Patient Name");
+        jTextField5.setText("Doctor Name");
         jTextField5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField5ActionPerformed(evt);
@@ -283,7 +286,7 @@ public class Patient extends javax.swing.JFrame {
         jTextField6.setBackground(new java.awt.Color(255, 255, 255));
         jTextField6.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
         jTextField6.setForeground(new java.awt.Color(0, 0, 0));
-        jTextField6.setText("Patient Name");
+        jTextField6.setText("Doctor Name");
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField6ActionPerformed(evt);
@@ -293,7 +296,7 @@ public class Patient extends javax.swing.JFrame {
         jTextField7.setBackground(new java.awt.Color(255, 255, 255));
         jTextField7.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
         jTextField7.setForeground(new java.awt.Color(0, 0, 0));
-        jTextField7.setText("Patient Name");
+        jTextField7.setText("Doctor Name");
         jTextField7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField7ActionPerformed(evt);
@@ -306,7 +309,7 @@ public class Patient extends javax.swing.JFrame {
         jLabel17.setBackground(new java.awt.Color(0, 0, 102));
         jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel17.setText("Delete Patient");
+        jLabel17.setText("Delete Doctor");
 
         jLabel1.setBackground(new java.awt.Color(255, 0, 0));
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -340,7 +343,7 @@ public class Patient extends javax.swing.JFrame {
         jLabel21.setBackground(new java.awt.Color(0, 0, 102));
         jLabel21.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel21.setText("Add Patient");
+        jLabel21.setText("Add Doctor");
 
         jLabel22.setBackground(new java.awt.Color(255, 0, 0));
         jLabel22.setForeground(new java.awt.Color(255, 255, 255));
@@ -374,7 +377,7 @@ public class Patient extends javax.swing.JFrame {
         jLabel23.setBackground(new java.awt.Color(0, 0, 102));
         jLabel23.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel23.setText("Edit Patient");
+        jLabel23.setText("Edit Doctor");
 
         jLabel24.setBackground(new java.awt.Color(255, 0, 0));
         jLabel24.setText("jLabel1");
@@ -387,9 +390,9 @@ public class Patient extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel23)
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -404,12 +407,12 @@ public class Patient extends javax.swing.JFrame {
         jLabel19.setBackground(new java.awt.Color(0, 0, 0));
         jLabel19.setFont(new java.awt.Font("OCR A Extended", 0, 18)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(0, 0, 204));
-        jLabel19.setText("Manage Patient");
+        jLabel19.setText("Manage Doctors");
 
         jLabel20.setBackground(new java.awt.Color(0, 0, 255));
         jLabel20.setFont(new java.awt.Font("OCR A Extended", 0, 18)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(0, 0, 255));
-        jLabel20.setText("Recorder Patient List");
+        jLabel20.setText("Recorder Doctors List");
 
         jTable1.setBackground(new java.awt.Color(255, 255, 255));
         jTable1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -423,7 +426,7 @@ public class Patient extends javax.swing.JFrame {
                 {null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Patient_id", "Patient_name", "Patient_age", "Patient_gender", "Patient_dob", "Patient_no", "Patient_condition", "Patient_bg", "Patient_address"
+                "Doctor_id", "Doctor_name", "Doctor_spec", "Doctor_gender", "Doctor_dob", "Doctor_no", "Doctor_service", "Doctor_exp", "Doctor_address"
             }
         ));
         jTable1.setGridColor(new java.awt.Color(0, 0, 102));
@@ -459,7 +462,7 @@ public class Patient extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(83, 83, 83)
+                                .addGap(74, 74, 74)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -510,7 +513,7 @@ public class Patient extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 3988, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 12, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -568,20 +571,20 @@ public class Patient extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Patient.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Doctors.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Patient.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Doctors.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Patient.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Doctors.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Patient.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Doctors.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Patient().setVisible(true);
+                new Doctors().setVisible(true);
             }
         });
     }
