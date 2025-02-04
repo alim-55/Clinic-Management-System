@@ -119,7 +119,7 @@
                       <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
                       <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="2077" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -206,16 +206,16 @@
                           <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel12" alignment="0" min="-2" pref="54" max="-2" attributes="0"/>
-                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel12" alignment="3" min="-2" pref="54" max="-2" attributes="0"/>
+                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="76" max="32767" attributes="0"/>
+                      <EmptySpace pref="1703" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -236,7 +236,7 @@
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\USER\Downloads\Clinic Management System\patient.png"/>
+                  <Image iconType="2" name="C:\Users\USER\Documents\NetBeansProjects\ClinicManagementSystem\src\asset\patient.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel1"/>
               </Properties>
@@ -272,7 +272,7 @@
             <Component class="javax.swing.JLabel" name="jLabel6">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\USER\Downloads\Clinic Management System\doctor.png"/>
+                  <Image iconType="2" name="C:\Users\USER\Documents\NetBeansProjects\ClinicManagementSystem\src\asset\doctor.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel1"/>
                 <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -297,7 +297,7 @@
             <Component class="javax.swing.JLabel" name="jLabel8">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\USER\Downloads\Clinic Management System\lab report.png"/>
+                  <Image iconType="2" name="C:\Users\USER\Documents\NetBeansProjects\ClinicManagementSystem\src\asset\lab report.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel1"/>
                 <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -308,7 +308,7 @@
             <Component class="javax.swing.JLabel" name="jLabel9">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\USER\Downloads\Clinic Management System\prescription.png"/>
+                  <Image iconType="2" name="C:\Users\USER\Documents\NetBeansProjects\ClinicManagementSystem\src\asset\prescription.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel1"/>
               </Properties>
@@ -344,7 +344,7 @@
             <Component class="javax.swing.JLabel" name="jLabel12">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\USER\Downloads\Clinic Management System\reception.png"/>
+                  <Image iconType="2" name="C:\Users\USER\Documents\NetBeansProjects\ClinicManagementSystem\src\asset\reception.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel1"/>
               </Properties>
@@ -366,7 +366,7 @@
             <Component class="javax.swing.JLabel" name="jLabel15">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\USER\Downloads\Clinic Management System\laboratorian.png"/>
+                  <Image iconType="2" name="C:\Users\USER\Documents\NetBeansProjects\ClinicManagementSystem\src\asset\laboratorian.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel1"/>
               </Properties>
@@ -374,7 +374,7 @@
             <Component class="javax.swing.JLabel" name="jLabel16">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\USER\Downloads\Clinic Management System\logout.png"/>
+                  <Image iconType="2" name="C:\Users\USER\Documents\NetBeansProjects\ClinicManagementSystem\src\asset\logout.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel1"/>
               </Properties>
@@ -396,7 +396,7 @@
             <Component class="javax.swing.JLabel" name="jLabel18">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\USER\Downloads\Clinic Management System\Vector.png"/>
+                  <Image iconType="2" name="C:\Users\USER\Documents\NetBeansProjects\ClinicManagementSystem\src\asset\Vector.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel1"/>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -461,7 +461,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Patient Name"/>
+            <Property name="text" type="java.lang.String" value="Patient Age"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
@@ -478,7 +478,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Patient Name"/>
+            <Property name="text" type="java.lang.String" value="Patient Gender"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
@@ -512,7 +512,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Patient Name"/>
+            <Property name="text" type="java.lang.String" value="Patient Age"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField4ActionPerformed"/>
@@ -630,7 +630,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\USER\Downloads\Clinic Management System\delete.png"/>
+                  <Image iconType="2" name="C:\Users\USER\Documents\NetBeansProjects\ClinicManagementSystem\src\asset\delete.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel1"/>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -701,7 +701,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\USER\Downloads\Clinic Management System\add.png"/>
+                  <Image iconType="2" name="C:\Users\USER\Documents\NetBeansProjects\ClinicManagementSystem\src\asset\add.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel1"/>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -769,7 +769,7 @@
                   <Color blue="0" green="0" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\USER\Downloads\Clinic Management System\edit.png"/>
+                  <Image iconType="2" name="C:\Users\USER\Documents\NetBeansProjects\ClinicManagementSystem\src\asset\edit.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel1"/>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">

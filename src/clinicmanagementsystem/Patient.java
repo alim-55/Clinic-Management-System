@@ -71,7 +71,7 @@ public class Patient extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(0, 0, 102));
         jPanel2.setName(""); // NOI18N
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Downloads\\Clinic Management System\\patient.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\ClinicManagementSystem\\src\\asset\\patient.png")); // NOI18N
         jLabel3.setText("jLabel1");
 
         jLabel4.setBackground(new java.awt.Color(255, 255, 255));
@@ -84,7 +84,7 @@ public class Patient extends javax.swing.JFrame {
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Doctor");
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Downloads\\Clinic Management System\\doctor.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\ClinicManagementSystem\\src\\asset\\doctor.png")); // NOI18N
         jLabel6.setText("jLabel1");
         jLabel6.setMinimumSize(new java.awt.Dimension(10, 10));
 
@@ -93,11 +93,11 @@ public class Patient extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Lab Test");
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Downloads\\Clinic Management System\\lab report.png")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\ClinicManagementSystem\\src\\asset\\lab report.png")); // NOI18N
         jLabel8.setText("jLabel1");
         jLabel8.setMinimumSize(new java.awt.Dimension(10, 10));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Downloads\\Clinic Management System\\prescription.png")); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\ClinicManagementSystem\\src\\asset\\prescription.png")); // NOI18N
         jLabel9.setText("jLabel1");
 
         jLabel10.setBackground(new java.awt.Color(255, 255, 255));
@@ -110,7 +110,7 @@ public class Patient extends javax.swing.JFrame {
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Reception");
 
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Downloads\\Clinic Management System\\reception.png")); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\ClinicManagementSystem\\src\\asset\\reception.png")); // NOI18N
         jLabel12.setText("jLabel1");
 
         jLabel13.setBackground(new java.awt.Color(255, 255, 255));
@@ -118,10 +118,10 @@ public class Patient extends javax.swing.JFrame {
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Laboratorian");
 
-        jLabel15.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Downloads\\Clinic Management System\\laboratorian.png")); // NOI18N
+        jLabel15.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\ClinicManagementSystem\\src\\asset\\laboratorian.png")); // NOI18N
         jLabel15.setText("jLabel1");
 
-        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Downloads\\Clinic Management System\\logout.png")); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\ClinicManagementSystem\\src\\asset\\logout.png")); // NOI18N
         jLabel16.setText("jLabel1");
 
         jLabel14.setBackground(new java.awt.Color(255, 255, 255));
@@ -129,7 +129,7 @@ public class Patient extends javax.swing.JFrame {
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("Logout");
 
-        jLabel18.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Downloads\\Clinic Management System\\Vector.png")); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\ClinicManagementSystem\\src\\asset\\Vector.png")); // NOI18N
         jLabel18.setText("jLabel1");
         jLabel18.setMaximumSize(new java.awt.Dimension(150, 150));
 
@@ -191,14 +191,14 @@ public class Patient extends javax.swing.JFrame {
                     .addComponent(jLabel10)
                     .addComponent(jLabel9))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel11))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel13)
                     .addComponent(jLabel15))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 76, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 1703, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel14)
                     .addComponent(jLabel16))
@@ -237,7 +237,7 @@ public class Patient extends javax.swing.JFrame {
         jTextField1.setBackground(new java.awt.Color(255, 255, 255));
         jTextField1.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(0, 0, 0));
-        jTextField1.setText("Patient Name");
+        jTextField1.setText("Patient Age");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -247,7 +247,7 @@ public class Patient extends javax.swing.JFrame {
         jTextField2.setBackground(new java.awt.Color(255, 255, 255));
         jTextField2.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
         jTextField2.setForeground(new java.awt.Color(0, 0, 0));
-        jTextField2.setText("Patient Name");
+        jTextField2.setText("Patient Gender");
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
@@ -267,7 +267,7 @@ public class Patient extends javax.swing.JFrame {
         jTextField4.setBackground(new java.awt.Color(255, 255, 255));
         jTextField4.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
         jTextField4.setForeground(new java.awt.Color(0, 0, 0));
-        jTextField4.setText("Patient Name");
+        jTextField4.setText("Patient Age");
         jTextField4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField4ActionPerformed(evt);
@@ -314,7 +314,7 @@ public class Patient extends javax.swing.JFrame {
 
         jLabel1.setBackground(new java.awt.Color(255, 0, 0));
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Downloads\\Clinic Management System\\delete.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\ClinicManagementSystem\\src\\asset\\delete.png")); // NOI18N
         jLabel1.setText("jLabel1");
         jLabel1.setMaximumSize(new java.awt.Dimension(150, 150));
 
@@ -349,7 +349,7 @@ public class Patient extends javax.swing.JFrame {
 
         jLabel22.setBackground(new java.awt.Color(255, 0, 0));
         jLabel22.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel22.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Downloads\\Clinic Management System\\add.png")); // NOI18N
+        jLabel22.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\ClinicManagementSystem\\src\\asset\\add.png")); // NOI18N
         jLabel22.setText("jLabel1");
         jLabel22.setMaximumSize(new java.awt.Dimension(150, 150));
 
@@ -383,7 +383,7 @@ public class Patient extends javax.swing.JFrame {
         jLabel23.setText("Edit Patient");
 
         jLabel24.setBackground(new java.awt.Color(255, 0, 0));
-        jLabel24.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Downloads\\Clinic Management System\\edit.png")); // NOI18N
+        jLabel24.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\NetBeansProjects\\ClinicManagementSystem\\src\\asset\\edit.png")); // NOI18N
         jLabel24.setText("jLabel1");
         jLabel24.setMaximumSize(new java.awt.Dimension(150, 150));
 
@@ -466,7 +466,7 @@ public class Patient extends javax.swing.JFrame {
                     .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 2077, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
