@@ -123,22 +123,24 @@ public class viewDetailsDoctor extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        try{
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/clinic","root","");
-            Statement st = conn.createStatement();
-            String sql = "selct * from doctor_record";
-            PreparedStatement ptst=conn.prepareStatement(sql);
-            ResultSet rs = ptst.executeQuery();
-            DefaultTableModel tm = (DefaultTableModel)jTable1.getModel();
-            tm.setRowCount(0);
-            while(rs.next()){
-                Object o[]={rs.getInt("ID"),rs.getString("DOCTORNAME"),rs.getString("SPECIALIZATION")};
-                tm.addRow(o);
-            }
-        }catch(Exception e){
-            JOptionPane.showMessageDialog(null,e);
+         try {
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/clinic", "root", "");
+        String sql = "SELECT * FROM doctor_record";
+        PreparedStatement ptst = conn.prepareStatement(sql);
+        ResultSet rs = ptst.executeQuery();
+        DefaultTableModel tm = (DefaultTableModel) jTable1.getModel();
+        tm.setRowCount(0);
+
+        while (rs.next()) {
+            Object[] row = { rs.getInt("ID"), rs.getString("DOCTORNAME"), rs.getString("SPECIALIZATION") };
+            tm.addRow(row);
         }
+
+        conn.close();
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(null, e);
+    }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
