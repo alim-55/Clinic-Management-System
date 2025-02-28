@@ -23,6 +23,9 @@ public class deleteDoctor extends javax.swing.JFrame {
      */
     public deleteDoctor() {
         initComponents();
+        setSize(645, 432); // Same size as other frames
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**

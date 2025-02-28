@@ -15,6 +15,9 @@ public class welcome extends javax.swing.JFrame {
      */
     public welcome() {
         initComponents();
+         setSize(645, 432); // Same size as other frames
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -55,6 +58,11 @@ public class welcome extends javax.swing.JFrame {
 
         jButton4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jButton4.setText("Prescription");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         jButton5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jButton5.setText("Patient");
@@ -143,6 +151,13 @@ public class welcome extends javax.swing.JFrame {
         obj.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+        Prescription obj = new Prescription();
+        obj.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments

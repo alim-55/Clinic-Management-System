@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/USER/Documents/NetBeansProjects/Clinic%20Management%20System/src/clinic/management/system/Login.java</file>
-            <file>file:/C:/Users/USER/Documents/NetBeansProjects/Clinic%20Management%20System/src/clinic/management/system/Doctors.java</file>
-            <file>file:/C:/Users/USER/Documents/NetBeansProjects/Clinic%20Management%20System/src/clinic/management/system/welcome.java</file>
-            <file>file:/C:/Users/USER/Documents/NetBeansProjects/Clinic%20Management%20System/src/clinic/management/system/addDoctor.java</file>
+            <file>file:/F:/Clinic-Management-System/src/clinic/management/system/Prescription.java</file>
+            <file>file:/F:/Clinic-Management-System/src/clinic/management/system/Doctors.java</file>
+            <file>file:/F:/Clinic-Management-System/src/clinic/management/system/welcome.java</file>
+            <file>file:/F:/Clinic-Management-System/src/clinic/management/system/addDoctor.java</file>
+            <file>file:/F:/Clinic-Management-System/src/clinic/management/system/addPrescription.java</file>
         </group>
     </open-files>
 </project-private>
