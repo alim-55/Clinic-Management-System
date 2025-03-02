@@ -22,7 +22,7 @@ public class viewPrescription extends javax.swing.JFrame {
      */
     public viewPrescription() {
         initComponents();
-         setSize(645, 432); // Same size as other frames
+        setSize(645, 432); // Same size as other frames
         setResizable(false);
         setLocationRelativeTo(null);
     }

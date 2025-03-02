@@ -3,11 +3,35 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/F:/Clinic-Management-System/src/clinic/management/system/Prescription.java</file>
-            <file>file:/F:/Clinic-Management-System/src/clinic/management/system/Doctors.java</file>
-            <file>file:/F:/Clinic-Management-System/src/clinic/management/system/welcome.java</file>
-            <file>file:/F:/Clinic-Management-System/src/clinic/management/system/addDoctor.java</file>
-            <file>file:/F:/Clinic-Management-System/src/clinic/management/system/addPrescription.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/addInventory.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/fireLaboratorian.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/viewLaboratorian.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/viewLabTest.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/admitPatient.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/addDoctor.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/ClinicManagementSystem.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/dischargePatient.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/viewDetailsDoctor.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/Prescription.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/deleteLabTest.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/editDetailsDoctor.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/Laboratorian.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/Patients.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/addLaboratorian.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/viewPrescription.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/Login.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/Inventory.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/editLaboratorian.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/addPrescription.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/deletePrescription.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/addLabTest.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/viewInventory.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/LabTest.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/editPatient.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/welcome.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/Doctors.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/deleteDoctor.java</file>
+            <file>file:/D:/Sd3100/Clinic-Management-System/src/clinic/management/system/viewdetailsPatient.java</file>
         </group>
     </open-files>
 </project-private>
