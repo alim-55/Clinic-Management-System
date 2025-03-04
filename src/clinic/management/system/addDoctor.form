@@ -172,6 +172,9 @@
     <Component class="javax.swing.JTextField" name="ds">
     </Component>
     <Component class="javax.swing.JTextField" name="di">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="diActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton3">
       <Properties>

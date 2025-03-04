@@ -91,7 +91,7 @@ public class viewPrescription extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jTable1);
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jLabel3.setText("Patient ID: ");
+        jLabel3.setText("Patient Name: ");
 
         z.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -261,7 +261,11 @@ public class viewPrescription extends javax.swing.JFrame {
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/clinic", "root", "");
 
         // SQL Query to fetch all prescriptions for the given patient ID
-        String sql = "SELECT doc_id, pat_id, lab_test, med FROM prescriptions WHERE pat_id = ?";
+        String sql = "SELECT p.doc_id, p.pat_id, p.lab_test, p.med " +
+                     "FROM prescriptions p " +
+                     "INNER JOIN patient_record pt ON p.pat_id = pt.id " +
+                     "WHERE pt.patient_name = ?";
+
         
         PreparedStatement ptst = conn.prepareStatement(sql);
         ptst.setString(1, patientId); // Set the Patient ID

@@ -80,6 +80,12 @@ public class addDoctor extends javax.swing.JFrame {
             }
         });
 
+        di.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                diActionPerformed(evt);
+            }
+        });
+
         jButton3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jButton3.setText("ADD");
         jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -174,31 +180,46 @@ public class addDoctor extends javax.swing.JFrame {
         Doctors obj = new Doctors();
         obj.setVisible(true);
         dispose();
-        
+
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-         try{
+        try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/clinic","root","");
+            Connection conn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/clinic", "root", "");
             String sql = "INSERT INTO doctor_record (BMDC_Number, specialization, phone_number, name) VALUES (?,?,?,?)";
-                PreparedStatement ptst = conn.prepareStatement(sql);
-                ptst.setString(1,di.getText());
-                ptst.setString(2,ds.getText());
-                ptst.setString(3,phn.getText());
-                ptst.setString(4,dn.getText());
-                
-                ptst.executeUpdate();
-                JOptionPane.showMessageDialog(null,"New Doctor Added");
-                
-                conn.close();
-                di.setText("");dn.setText("");ds.setText("");phn.setText("");
-            
-        }catch(Exception e){
-            JOptionPane.showMessageDialog(null,e);
+            PreparedStatement ptst = conn.prepareStatement(sql);
+            ptst.setString(1, di.getText());
+            ptst.setString(2, ds.getText());
+            ptst.setString(3, phn.getText());
+            ptst.setString(4, dn.getText());
+
+            ptst.executeUpdate();
+            JOptionPane.showMessageDialog(null, "New Doctor Added");
+
+            conn.close();
+            di.setText("");
+            dn.setText("");
+            ds.setText("");
+            phn.setText("");
+
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e);
         }
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void diActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_diActionPerformed
+        // TODO add your handling code here:
+        di.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                char c = evt.getKeyChar();
+                if (!Character.isDigit(c)) {
+                    evt.consume(); // Ignore non-digit input
+                }
+            }
+        });
+    }//GEN-LAST:event_diActionPerformed
 
     /**
      * @param args the command line arguments
