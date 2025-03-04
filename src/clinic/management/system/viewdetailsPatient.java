@@ -52,15 +52,23 @@ public class viewdetailsPatient extends javax.swing.JFrame {
         jTable1.setBackground(new java.awt.Color(255, 255, 255));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
             },
             new String [] {
-                "ID", "Patient Name", "Disease", "Admit Date", "Admit Time"
+                "ID", "Patient Name", "Disease", "Admit Date", "Admit Time", "Phone Number"
             }
-        ));
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, true, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         jScrollPane1.setViewportView(jTable1);
 
         jButton1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -153,7 +161,7 @@ public class viewdetailsPatient extends javax.swing.JFrame {
             tm.setRowCount(0);
 
             while (rs.next()) {
-                Object[] o = {rs.getInt("ID"), rs.getString("Name"), rs.getString("Disease"), rs.getString("Date"), rs.getString("Time")};
+                Object[] o = {rs.getInt("id"), rs.getString("patient_name"), rs.getString("disease"), rs.getString("admit_date"), rs.getString("admit_time"),  rs.getString("phone_number")};
                 tm.addRow(o);
             }
 

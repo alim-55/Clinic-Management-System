@@ -186,7 +186,7 @@ public class editPatient extends javax.swing.JFrame {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/clinic", "root", "");
 
-            String sql = "UPDATE patient_record SET Name = ?, Disease = ? WHERE id = ?";
+            String sql = "UPDATE patient_record SET patient_name = ?, disease = ? WHERE id = ?";
 
             PreparedStatement prst = conn.prepareStatement(sql);
             prst.setString(1, pname);

@@ -212,7 +212,7 @@ public class addLabTest extends javax.swing.JFrame {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/clinic","root","");
-            String sql = "insert into lab_test values (?,?,?,?,?)";
+            String sql = "INSERT INTO lab_test (test_name, test_result, test_cost, patient_id, prescription_id) VALUES (?,?,?,?,?)";
                 PreparedStatement ptst = conn.prepareStatement(sql);
                 ptst.setString(1,i.getText());
                 ptst.setString(2,j.getText());
@@ -221,7 +221,7 @@ public class addLabTest extends javax.swing.JFrame {
                 ptst.setString(5,m.getText());
                 
                 ptst.executeUpdate();
-                JOptionPane.showMessageDialog(null,"New Prescription Added");
+                JOptionPane.showMessageDialog(null,"New Lab Test Added");
                 
                 conn.close();
                 i.setText("");j.setText("");k.setText("");
