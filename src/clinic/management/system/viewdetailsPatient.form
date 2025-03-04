@@ -102,7 +102,7 @@
                 <Column editable="false" title="Patient Name" type="java.lang.Object"/>
                 <Column editable="false" title="Disease" type="java.lang.Object"/>
                 <Column editable="false" title="Admit Date" type="java.lang.Object"/>
-                <Column editable="true" title="Admit Time" type="java.lang.Object"/>
+                <Column editable="false" title="Admit Time" type="java.lang.Object"/>
                 <Column editable="false" title="Phone Number" type="java.lang.Object"/>
               </Table>
             </Property>

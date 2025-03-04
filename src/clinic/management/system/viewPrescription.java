@@ -87,7 +87,15 @@ public class viewPrescription extends javax.swing.JFrame {
             new String [] {
                 "Doctor ID", "Patient ID", "Lab Test", "Medicine"
             }
-        ));
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         jScrollPane1.setViewportView(jTable1);
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N

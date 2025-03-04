@@ -77,7 +77,15 @@ public class deleteLabTest extends javax.swing.JFrame {
             new String [] {
                 "ID", "Name", "Result", "Cost", "Patient_ID", "Prescription_ID"
             }
-        ));
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         jScrollPane1.setViewportView(jTable1);
 
         jButton1.setText("View Records");

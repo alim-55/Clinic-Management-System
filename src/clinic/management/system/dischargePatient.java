@@ -62,7 +62,15 @@ public class dischargePatient extends javax.swing.JFrame {
             new String [] {
                 "ID", "Name", "Disease", "Date", "Time"
             }
-        ));
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         jScrollPane1.setViewportView(jTable1);
 
         jButton1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
